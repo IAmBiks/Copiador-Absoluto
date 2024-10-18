@@ -14,7 +14,7 @@ nomeArquivo = "HTMLCopy.html"
 while(parada == False):
     system('cls' if name == 'nt' else 'clear') or None
     print("Welcome to CopiadorAbsoluto")
-    url = str(input('Enter the url of the website you want to copy the html \n'))
+    url = str(input('Enter the url of the website you want to copy: \n'))
 
     try:
         htmlSite = requests.get(url)
