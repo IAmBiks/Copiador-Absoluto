@@ -14,7 +14,7 @@ nomeArquivo = "HTMLCopiado.html"
 while(parada == False):
     system('cls' if name == 'nt' else 'clear') or None
     print("Bem-Vindo ao CopiadorAbsoluto")
-    url = str(input('insira a url do site que quer copiar o html \n'))
+    url = str(input('insira a url do site que quer copiar: \n'))
 
     try:
         htmlSite = requests.get(url)
@@ -45,3 +45,4 @@ while(parada == False):
             except ValueError:
                 erroClear("ValueError")
                 continue
+#
