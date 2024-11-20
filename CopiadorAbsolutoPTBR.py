@@ -4,7 +4,7 @@ from os import name,system
 from time import sleep
 
 def erroClear(Erro):
-    print("Erro de ", erro, "\nReiniciando...")
+    print("Erro de ", Erro, "\nReiniciando...")
     sleep(3)
     system('cls' if name == 'nt' else 'clear') or None
 
